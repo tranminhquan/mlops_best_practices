@@ -10,7 +10,7 @@ pipeline {
             when {changeset "data_pipeline/**" }
 
             steps {
-                echo 'Building data pipeline..'
+                echo 'Building data pipeline.. with Jenkin'
                 sh 'cd data_pipeline && make build_image'
             }
         }
@@ -19,7 +19,7 @@ pipeline {
             when {changeset "data_pipeline/**" }
 
             steps {
-                echo 'Testing data pipeline..'
+                echo 'Testing data pipeline.. with Jenkin'
             }
         }
 
