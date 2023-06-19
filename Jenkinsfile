@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building something..'
+                echo 'Building something.. test with Jenkin'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing something..'
+                echo 'Testing something.. test with Jenkin'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying something..'
+                echo 'Deploying something.. test with Jenkin'
             }
         }
     }
